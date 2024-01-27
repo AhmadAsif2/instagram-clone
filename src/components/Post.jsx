@@ -23,7 +23,6 @@ import {
 } from 'firebase/firestore';
 import { db } from '../../firebase';
 import Moment from 'react-moment';
-import { set } from 'mongoose';
 
 function Post({ id, username, userImg, img, caption }) {
   const [comments, setComments] = useState([]);
